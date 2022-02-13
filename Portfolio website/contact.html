@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kamil Shaikh Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar sidebarGo">
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/myself.html">Myself</a></li>
+            <li><a href="/services.html">Services</a></li>
+            <li><a href="/contact.html">Contact me</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="main">
+        <div class="hamburger">
+          <img class="ham" src="  ham.png" alt="" width="27px">
+          <img class="cross" src="  cross1.png" alt="" width="27px">
+        </div>
+        <div class="contactform">
+            <h1>Contact me for Work/General enquiries</h1>
+            <form>
+                <div class="mb-3">
+                  <label for="clientname" class="form-label">Full Name:</label>
+                  <input type="text" class="form-control" id="clientname" aria-describedby="emailHelp" placeholder="e.g Rahul Sharma">
+                </div>
+                <div class="mb-3">
+                  <label for="clientemail" class="form-label">Email address:</label>
+                  <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp" placeholder="e.g john@gmail.com">
+                  <div id="emailHelp" class="form-text">*we'll never share your email & phone with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="clientidea" class="form-label">Project Idea:</label>
+                  <input type="text" class="form-control" id="clientidea" aria-describedby="emailHelp" placeholder="e.g Web Development">
+                </div>
+                <div class="mb-3">
+                  <label for="clientphone" class="form-label">Phone:</label>
+                  <input type="phone" class="form-control" id="clientphone">
+                </div>
+                <div class="mb-3">
+                    <label for="clientenquiry" class="form-label">Enquiry:</label>
+                    <input type="text" class="form-control" id="clientenquiry">
+                  </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="isclient">
+                  <label class="form-check-label" for="isclient">I want us to work on a project together</label>
+                </div>
+                <div class="buttons contactbtn">
+                <button type="submit">Submit</button>
+                </div>
+              </form>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="footerContainer">
+          <div class="icons">
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-github"></i>
+        </div>
+          <i class="fas fa-code"></i><p>Author: Kamil Shaikh</p>
+          <i class="fas fa-envelope"></i><a href="mailto:iamkamilshaikh@gmail.com">iamkamilshaikh@gmail.com</a>
+          <div id="rightsReserved"><i class="fas fa-copyright"></i>All Rights Reserved</div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/db89d67b1c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
